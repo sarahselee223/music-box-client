@@ -8,9 +8,9 @@ class App extends Component {
     super()
     this.state = {
       artists: [
-        { id: 1, name: 'Drake', genre: 'hip-hop' },
-        { id: 2, name: 'Fugees', genre: 'hip-hop' },
-        { id: 3, name: 'A Tribe Called Quest', genre: 'hip-hop' }
+        // { id: 1, name: 'Drake', genre: 'hip-hop' },
+        // { id: 2, name: 'Fugees', genre: 'hip-hop' },
+        // { id: 3, name: 'A Tribe Called Quest', genre: 'hip-hop' }
       ]
     }
   }
