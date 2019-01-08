@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ArtistList = ({ artists }) => {
-  const lis = artists.map((artist, i) => {
+  const list = artists.map((artist, i) => {
     return <li
       className="list-group-item d-flex justify-content-between align-items-center"
       key={ i }>
@@ -13,7 +13,7 @@ const ArtistList = ({ artists }) => {
       </li>
   })
 
-  return <ul className="list-group">{ lis }</ul>
+  return <ul className="list-group">{ list }</ul>
 }
 
 export default ArtistList

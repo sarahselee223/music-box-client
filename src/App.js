@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Header from './shared/Header'
-import ArtistList from './artists/list'
-import ArtistForm from './artists/form'
+import Header from './components/Header'
+import ArtistList from './components/ArtistList'
+import ArtistForm from './components/ArtistForm'
 
 class App extends Component {
   constructor () {
